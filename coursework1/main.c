@@ -6,6 +6,10 @@ int main (int argc, char *argv[]) {
     //check arguments
     //if (argc != 2)
     //print error code
+    if (argc != 2) { 
+        printf("Usage: mazeGame <filename>");
+        return 1;
+    }
 
     // getMap (argv[1]) // gets map and opens it
 

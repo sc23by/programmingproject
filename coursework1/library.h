@@ -4,6 +4,11 @@
 //include guards use in evry header file
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
+//defines
+#define MAX_LENGTH 100
+#define MIN_LENGTH 5
 
 // struct for maze maps
 typedef struct {
